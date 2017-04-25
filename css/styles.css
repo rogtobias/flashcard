@@ -1,0 +1,21 @@
+button {
+  width: 205px;
+  margin: 10px;
+  text-align: center;
+}
+
+td {
+  height: 180px;
+  text-align: justify;
+}
+
+p {
+  margin: 10px;
+  display: none;
+}
+
+p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #0088cc;
+}
