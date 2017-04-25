@@ -173,7 +173,11 @@ $(document).ready(function() {
 
   $("#btn-scare").click(function() {
     $("#return-scare").fadeIn(0).delay(250).fadeOut(0);
+  });
 
+  $("#btn-return-to-all").click(function() {
+    $("button").show();
+    $("p").hide();
   });
 
 });
