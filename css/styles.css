@@ -1,3 +1,7 @@
+h1 {
+  text-align: center;
+}
+
 button {
   width: 205px;
   margin: 10px;
@@ -18,4 +22,15 @@ p:hover {
   cursor: pointer;
   text-decoration: underline;
   color: #0088cc;
+}
+
+img {
+  display: none;
+  vertical-align: middle;
+  right: 0px;
+  position: absolute;
+  background: black;
+  padding: auto;
+  overflow: hidden;
+
 }

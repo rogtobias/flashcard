@@ -171,8 +171,9 @@ $(document).ready(function() {
     });
   });
 
-  $("btn-scare").click(function() {
-    
-  })
+  $("#btn-scare").click(function() {
+    $("#return-scare").fadeIn(0).delay(250).fadeOut(0);
+
+  });
 
 });
